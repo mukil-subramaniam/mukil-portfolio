@@ -1,0 +1,45 @@
+import andriod from "./andriod.png";
+import backend from "./backend.png";
+import close from "./close.svg";
+import crmnext from "./company/crmnext.png";
+import newgen from "./company/newgen.png";
+import nickelfox from "./company/nickelfox.png";
+import proximus from "./company/proximus.png";
+import skillrisers from "./company/skillrisers.png";
+import creator from "./creator.png";
+import demo from "./demo.png";
+import github from "./github.png";
+import linkedIn from "./linkedIn.png";
+import logo from "./logo.svg";
+import menu from "./menu.svg";
+import mobile from "./mobile.png";
+import aptihealthApp from "./projects/aptihealthApp.png";
+import aptihealthWeb from "./projects/aptihealthWeb.png";
+import cb from './projects/cb.png';
+import chatapp from "./projects/chatapp.png";
+import gh from './projects/gh.png';
+import library from "./projects/library.png";
+import rollApp from "./projects/rollApp.png";
+import rollWeb from "./projects/rollWeb.png";
+import tp from './projects/tp.png';
+import zealApp from "./projects/zealApp.png";
+import zealWeb from "./projects/zealWeb.png";
+import angular from "./tech/angular.png";
+import css from "./tech/css.png";
+import git from "./tech/git.png";
+import html from "./tech/html.png";
+import java from "./tech/java.png";
+import javascript from "./tech/javascript.png";
+import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.png";
+import nextJs from "./tech/nextjs.svg";
+import nodejs from "./tech/nodejs.png";
+import reactjs from "./tech/reactjs.png";
+import redux from "./tech/redux.png";
+import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
+import web from "./web.png";
+export {
+  andriod, angular, aptihealthApp, aptihealthWeb, backend, cb, chatapp, close, creator, crmnext, css, demo, gh, git, github, html, java, javascript, library, linkedIn, logo, menu, mobile, mongodb, mysql, newgen, nextJs, nickelfox, nodejs, proximus, reactjs, redux, rollApp, rollWeb, skillrisers, tailwind, tp, typescript, web, zealApp, zealWeb
+};
+
