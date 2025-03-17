@@ -1,10 +1,10 @@
 import {
   andriod,
+  at,
   backend,
   cb,
   chatapp,
   creator,
-  crmnext,
   css,
   gh,
   git,
@@ -17,13 +17,9 @@ import {
   mobile,
   mongodb,
   mysql,
-  newgen,
-  nickelfox,
   nodejs,
-  proximus,
   reactjs,
-  rollApp,
-  skillrisers,
+  spectra,
   tp,
   web
 } from "../assets";
@@ -31,7 +27,7 @@ import {
 const navigationPaths = {
   home: "/",
   about: "about",
-  work: "work",
+  work: "Achievements",
   contact: "contact",
 };
 
@@ -42,7 +38,7 @@ export const navLinks = [
   },
   {
     id: navigationPaths.work,
-    title: "Work",
+    title: "Achievements",
   },
   {
     id: navigationPaths.contact,
@@ -123,75 +119,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Crmnext",
-    company_website: "https://www.businessnext.com/crm",
-    icon: crmnext,
-    iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
-    points: [
-      "Developed Flow and Layout Designers for HDFC, PNB, IOB, and Utkarsh Bank.",
-      "Boosted team efficiency by 50% by implementing monorepo architecture and reusable Design-System.",
-      "Integrated GenAI models to automate flow creation from user prompts, eliminating manual configuration efforts.",
-      "Integrated unit testing with 80% code coverage, enhancing code reliability and reducing bugs.",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
-    icon: nickelfox,
-    iconBg: "#E6DEDD",
-    date: "Jan 2022 - Nov 2023",
-    points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Software Developer",
-    company_name: "Newgen Software",
-    company_website: "https://newgensoft.com/home-india/",
-    icon: newgen,
-    iconBg: "#E6DEDD",
-    date: "Mar 2021 - Dec 2021",
-    points: [
-      "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
-      "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
-      "Optimized frontend performance by achieving 20% reduction in page loading time and make it responsive.",
-      "Created a transaction report generator, reducing report generation time by 50% and enhancing data analysis.",
-    ],
-  },
-  {
-    title: "Software Engineer Intern",
-    company_name: "Skillrisers",
-    company_website: "https://www.skillrisers.com/",
-    icon: skillrisers,
-    iconBg: "#E6DEDD",
-    date: "Jan 2020 - Jul 2020",
-    points: [
-      "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
-      "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
-      "Collaborated effectively with the development team, actively participating in code reviews and resolving technical challenges.",
-      "Demonstrated strong problem-solving skills, consistently delivering high-quality code and meeting project deadlines.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Self-employed",
-    company_website: "https://proximus.surge.sh/index.html",
-    icon: proximus,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Jan 2021",
-    points: [
-      "Spearheaded the development of a fully responsive website for the college coding society.",
-      "Led coding sessions, actively sharing knowledge and insights to enrich members' programming skills and understanding.",
-      "Organized informative sessions on cutting-edge technologies, including JavaScript and ReactJs.",
-      "Curated and designed challenging coding problems for college competitions.",
-    ],
-  },
+    "title": "Achievements",
+    "company_name": "",
+    "company_website": "",
+    "icon": "",
+    "iconBg": "#E6DEDD",
+    "date": "",
+    "points": [
+        "Secured First Prize in Innoventures at SignIn 2K24 for developing an innovative tech solution."
+    ]
+},
+{
+  "title": "Achievements",
+  "company_name": "",
+  "company_website": "",
+  "icon": "",
+  "iconBg": "#E6DEDD",
+  "date": "",
+  "points": [
+      "Third Prize in our department hackathon for developing a Quiz app.",
+      "Developed a Quiz app in Flutter."
+  ]
+},
+{
+  "title": "Achievements",
+  "company_name": "",
+  "company_website": "",
+  "icon": "",
+  "iconBg": "#E6DEDD",
+  "date": "",
+  "points": [
+      "Third Prize in the 'Dev-o-Crafts' app development event, organized by MADC (Mobile Application Development Club)."
+  ]
+},
+{
+  "title": "Achievements",
+  "company_name": "",
+  "company_website": "",
+  "icon": "",
+  "iconBg": "#E6DEDD",
+  "date": "",
+  "points": [
+      "Runner-Up in 'KEC Hackathon Software Edition' for developing a guest house booking website."
+  ]
+},
+  
 ];
 
 const projects = [
@@ -213,7 +185,7 @@ const projects = [
       }
     ],
     image: chatapp,
-    hosted_link: "https://www.aptihealth.com/",
+    hosted_link: "",
   },
   {
     "name": "Library Management System",
@@ -318,30 +290,63 @@ const projects = [
       }
     ],
     image: cb,
-    hosted_link: "https://app.tryroll.com/",
+    hosted_link: "",
   },
   {
-    name: "Roll App",
-    description:
-      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
-    tags: [
+    "name": "Smart Attendance App (Freelance Project)",
+    "description": "A freelance project: A Flutter-based attendance management system with a Node.js and MongoDB backend. Designed for educational institutions and businesses, it enables real-time attendance tracking and automated reports for students and employees, ensuring a seamless and efficient management process.",
+    "tags": [
       {
-        name: "Flutter",
-        color: "blue-text-gradient",
+        "name": "freelance-project",
+        "color": "gold-text-gradient"
       },
       {
-        name: "tailwind",
-        color: "green-text-gradient",
+        "name": "flutter",
+        "color": "blue-text-gradient"
       },
       {
-        name: "storybook",
-        color: "pink-text-gradient",
+        "name": "nodejs",
+        "color": "green-text-gradient"
       },
+      {
+        "name": "mongodb",
+        "color": "pink-text-gradient"
+      },
+      {
+        "name": "expressjs",
+        "color": "purple-text-gradient"
+      }
     ],
-    image: rollApp,
+    image: at,
     hosted_link:
-      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
+      "",
   },
+  {
+  "name": "MADC - Spectra Event Website",
+  "description": "A responsive website built for the 'Spectra' event organized by the Mobile Application Development Club (MADC) at KEC. Developed using HTML and CSS, the website provides event details, registration, and schedule information with a clean and user-friendly design.",
+  "tags": [
+    {
+      "name": "html",
+      "color": "blue-text-gradient"
+    },
+    {
+      "name": "css",
+      "color": "green-text-gradient"
+    },
+    {
+      "name": "responsive-design",
+      "color": "pink-text-gradient"
+    },
+    {
+      "name": "event-website",
+      "color": "purple-text-gradient"
+    }
+  ],
+  image: spectra,
+  hosted_link:
+    "https://android.kongu.edu/",
+}
+
 ];
 
 const personalInfo = {

@@ -15,12 +15,14 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import aptihealthApp from "./projects/aptihealthApp.png";
 import aptihealthWeb from "./projects/aptihealthWeb.png";
+import at from "./projects/at.png";
 import cb from './projects/cb.png';
 import chatapp from "./projects/chatapp.png";
 import gh from './projects/gh.png';
 import library from "./projects/library.png";
 import rollApp from "./projects/rollApp.png";
 import rollWeb from "./projects/rollWeb.png";
+import spectra from "./projects/spectra.png";
 import tp from './projects/tp.png';
 import zealApp from "./projects/zealApp.png";
 import zealWeb from "./projects/zealWeb.png";
@@ -40,6 +42,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import web from "./web.png";
 export {
-  andriod, angular, aptihealthApp, aptihealthWeb, backend, cb, chatapp, close, creator, crmnext, css, demo, gh, git, github, html, java, javascript, library, linkedIn, logo, menu, mobile, mongodb, mysql, newgen, nextJs, nickelfox, nodejs, proximus, reactjs, redux, rollApp, rollWeb, skillrisers, tailwind, tp, typescript, web, zealApp, zealWeb
+  andriod, angular, aptihealthApp, aptihealthWeb, at, backend, cb, chatapp, close, creator, crmnext, css, demo, gh, git, github, html, java, javascript, library, linkedIn, logo, menu, mobile, mongodb, mysql, newgen, nextJs, nickelfox, nodejs, proximus, reactjs, redux, rollApp, rollWeb, skillrisers, spectra, tailwind, tp, typescript, web, zealApp, zealWeb
 };
 

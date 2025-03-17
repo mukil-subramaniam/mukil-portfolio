@@ -1,14 +1,14 @@
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { textVariant } from "../utils/motion";
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
 import { experiences, navigationPaths } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -62,8 +62,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}></p>
+        <h2 className={styles.sectionHeadText}>Achievements</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
